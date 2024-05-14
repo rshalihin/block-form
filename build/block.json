@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mrs-block/mrs-form",
+  "version": "0.1.0",
+  "title": "Mrs Form",
+  "category": "text",
+  "icon": "list-view",
+  "description": "A simple Gutenberg form widget.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "users": {
+      "type": "array",
+      "default": [
+        {
+          "fName": "John",
+          "lName": "Doe",
+          "city": "dhaka",
+          "gender": "Male"
+        },
+        {
+          "fName": "Jenny",
+          "lName": "Doe",
+          "city": "brahmanbaria",
+          "gender": "Female"
+        }
+      ]
+    }
+  },
+  "textdomain": "mrs-form",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
