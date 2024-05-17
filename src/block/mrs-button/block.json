@@ -1,0 +1,302 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/mrs-button",
+	"version": "0.1.0",
+	"title": "Mrs Button",
+	"category": "text",
+	"icon": "button",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"uniqueId": {
+			"type": "string"
+		},
+		"enableIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"buttonIconPosition": {
+			"type": "string",
+            "default": "afterText"
+		},
+		"buttonIcon": {
+			"type": "string",
+			"default": "fas fa-arrow-right"
+		},
+		"buttonText": {
+			"type": "string",
+            "default": "Click Me"
+		},
+		"removeText": {
+			"type": "boolean",
+            "default": false
+		},
+		"textAlignments": {
+			"type": "string",
+            "default": "center"
+		},
+		"buttonLink": {
+			"type": "string",
+			"default": ""
+		},
+		"buttonLinkTarget": {
+			"type": "string",
+            "default": "_blank"
+		},
+		"buttonLinkFollow": {
+			"type": "boolean",
+            "default": false
+		},
+		"buttonFontSize": {
+			"type": "object",
+			"default": {
+				"device": {
+					"desktop": "14",
+                    "tablet": "",
+                    "mobile": ""
+				},
+				"unit": {
+					"desktop": "px",
+                    "tablet": "px",
+                    "mobile": "px"
+				}
+			}
+		},
+		"buttonFontColor": {
+			"type": "object",
+            "default": {
+                "color": "#fff",
+				"hover": ""
+            }
+		},
+		"buttonIconSize": {
+			"type": "object",
+            "default": {
+                "device": {
+                    "desktop": "14",
+                    "tablet": "",
+                    "mobile": ""
+                },
+                "unit": {
+                    "desktop": "px",
+                    "tablet": "px",
+                    "mobile": "px"
+                }
+            }
+		},
+		"buttonIconColor": {
+			"type": "object",
+            "default": {
+                "color": "#fff",
+                "hover": ""
+            }
+		},
+		"buttonIconGap": {
+			"type": "object",
+			"default": {
+				"device": {
+					"desktop": "5",
+                    "tablet": "",
+                    "mobile": ""
+				},
+				"unit": {
+                    "desktop": "px",
+                    "tablet": "px",
+                    "mobile": "px"
+                }
+			}
+		},
+		"bgButtonColor": {
+			"type": "object",
+			"default": {
+				"color": {
+					"transparent": "",
+					"solid": "#0053F0",
+					"gradient": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(133,49,213) 100%)"
+				},
+				"hover": {
+                    "transparent": "",
+                    "solid": "",
+                    "gradient": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(133,49,213) 100%)"
+                }
+               
+            }
+		},
+		"bgTransition": {
+			"type": "object",
+			"default": {
+				"value": 0.3
+			}
+		},
+		"buttonBorder": {
+			"type": "object",
+			"default": {
+				"color": "#DCDCDE",
+				"style": "solid",
+				"hoverColor": "#DCDCDE"
+			}
+		},
+		"borderTransition": {
+			"type": "object",
+            "default": {
+                "value": 0.3
+            }
+		},
+		"buttonBorderWidth": {
+			"type": "object",
+			"default": {
+				"device": {
+					"desktop": {
+						"top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0"
+					},
+					"tablet": {
+						"top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+					},
+					"mobile": {
+						"top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+					}
+				},
+				"unit": {
+                    "desktop": "px",
+                    "tablet": "px",
+                    "mobile": "px"
+                },
+				"allChange": false
+			}
+		},
+		"buttonBorderRadius": {
+			"type": "object",
+			"default": {
+				"device": {
+					"desktop": {
+						"top": "8",
+                        "right": "8",
+                        "bottom": "8",
+                        "left": "8"
+					},
+					"tablet": {
+						"top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+					},
+					"mobile": {
+						"top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+					}
+				},
+				"unit": {
+					"desktop": "px",
+                    "tablet": "px",
+                    "mobile": "px"
+                },
+				"allChange": false
+			}
+		},
+		"enableButtonBoxShadow": {
+			"type": "boolean",
+            "default": false
+		},
+		"buttonShadowTransition": {
+			"type": "object",
+            "default": {
+                "value": 0.3
+            }
+		},
+		"buttonShadow": {
+			"type": "object",
+			"default": {
+				"device": {
+                    "desktop": {
+                        "top": "0",
+                        "right": "3",
+                        "bottom": "6",
+                        "left": "0"
+                    },
+                    "tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                },
+                "unit": {
+                    "desktop": "Outset",
+                    "tablet": "Outset",
+                    "mobile": "Outset"
+                },
+                "color": "#000026",
+                "hoverColor": "#000026"
+			}
+		},
+		"buttonPadding": {
+			"type": "object",
+			"default": {
+				"device": {
+					"desktop": {
+                        "top": "10",
+                        "right": "28",
+                        "bottom": "10",
+                        "left": "28"
+                    },
+                    "tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+				},
+				"unit": {
+					"desktop": "px",
+                    "tablet": "px",
+                    "mobile": "px"
+				},
+				"allChange": false
+			}
+		},
+		"buttonHideOnDesktop": {
+			"type": "boolean",
+			"default": false
+		},
+		"buttonHideOnTablet": {
+			"type": "boolean",
+            "default": false
+		},
+		"buttonHideOnMobile": {
+			"type": "boolean",
+            "default": false
+		}
+	},
+	"textdomain": "mrs-button",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

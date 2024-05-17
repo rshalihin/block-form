@@ -25,6 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_mrs_form_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	register_block_type( __DIR__ . '/build/block/mrs-form' );
+	register_block_type( __DIR__ . '/build/block/mrs-button' );
 }
 add_action( 'init', 'create_block_mrs_form_block_init' );

@@ -1,0 +1,41 @@
+.mrs-icon-picker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .mrs-component-title{
+        margin-bottom: 0;
+    }
+    .rfipdropdown {
+        width: 100%;
+        left: 0 !important;
+        top: 40px !important;
+    }
+    .rfipdropdown__selector .fipicon-angle-down::before{
+        display: none;
+    }
+    .rfip {
+        width: 50%;
+        margin: 0;
+        position: unset;
+    }
+    .rfipbtn{
+        width: 100px;
+        margin-left: auto;
+        min-height: 40px;
+    }
+    .rfipbtn__button {
+        width: 42px;
+    }
+    .rfipbtn__current{
+        flex: 0 0 60px;
+    }
+    .rfipbtn--default .rfipbtn__icon{
+        border: none;
+    }
+    .rfipbtn__del{
+        height: 16px;
+        width: 16px;
+        border-radius: 2px;
+    }
+}

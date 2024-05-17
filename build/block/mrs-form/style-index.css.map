@@ -1,0 +1,1 @@
+{"version":3,"file":"block/mrs-form/style-index.css","mappings":";;;AACA;EACC;AAAD,C","sources":["webpack://mrs-form/./src/block/mrs-form/style.scss"],"sourcesContent":["\n.wp-block-mrs-block-mrs-form {\n\tpadding: 2px;\n}\n"],"names":[],"sourceRoot":""}
