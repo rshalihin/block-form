@@ -1,0 +1,32 @@
+.mrs-button-group {
+    &.mrs-components-mb {
+        width: 100%;
+        margin-bottom: 24px;
+        .mrs-components-top {
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .mrs-button-group-list {
+            border: 1px solid #d7dade;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            button {
+                background-color: #fff;
+                box-shadow: none;
+                color: #1e1e1e;
+                height: 32px;
+                justify-content: center;
+                padding: 0;
+                width: 100%;
+                &.is-active {
+                    background-color: #008db4;
+                    color: #fff;
+                    height: 28px;
+                    margin-top: 1px;
+                    width: calc(100% - 4px);
+                }
+            }
+        }
+    }
+}

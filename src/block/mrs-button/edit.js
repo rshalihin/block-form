@@ -67,7 +67,6 @@ export default function Edit(props) {
 			<i className={`mrs-button-icon ${buttonIcon}`}></i>
 		);
 	}
-	console.log(uniqueId);
 
 	return (
 		<>
@@ -83,12 +82,12 @@ export default function Edit(props) {
 		</BlockControls>
 		<div { ...useBlockProps() }>
 			<div className={'mrs-button'} id={ 'mrs-button' }>
-				<a target={ buttonLinkTarget } rel={ buttonLinkFollow ? 'nofollow noopener' : 'follow noopener' } >
+				<a target={ buttonLinkTarget ? '_blank' : '_self' } rel={ buttonLinkFollow ? 'nofollow noopener' : 'follow noopener' } >
 					<div className="mrs-button-content">
 						{ ('beforeText' === buttonIconPosition && enableIcon ) && icon() }
 						<RichText
 							tagName='span'
-							value={ buttonText }
+							value={ removeText ? '' : buttonText }
 							onChange={updateButtonText}
 							className={`${ ( removeText  ? 'mrs-text-hide' : '') }` }
 							allowedFormats={[ 'core/bold', 'core/italic' ]}

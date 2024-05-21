@@ -9,7 +9,8 @@
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
-    "html": false
+    "html": false,
+    "customClassName": false
   },
   "attributes": {
     "uniqueId": {
@@ -44,12 +45,50 @@
       "default": ""
     },
     "buttonLinkTarget": {
-      "type": "string",
-      "default": "_blank"
+      "type": "boolean",
+      "default": false
     },
     "buttonLinkFollow": {
       "type": "boolean",
       "default": false
+    },
+    "fontTypography": {
+      "type": "object",
+      "default": {
+        "googleFont": {
+          "family": "Default",
+          "variants": [
+            "300",
+            "400",
+            "500",
+            "600",
+            "700",
+            "800"
+          ]
+        },
+        "typography": {
+          "family": "",
+          "style": "normal",
+          "weight": "400",
+          "transparent": "capitalized",
+          "decoration": "none"
+        }
+      }
+    },
+    "fontSpacing": {
+      "type": "object",
+      "default": {
+        "device": {
+          "desktop": "0",
+          "tablet": "",
+          "mobile": ""
+        },
+        "unit": {
+          "desktop": "px",
+          "tablet": "px",
+          "mobile": "px"
+        }
+      }
     },
     "buttonFontSize": {
       "type": "object",

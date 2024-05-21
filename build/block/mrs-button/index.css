@@ -199,6 +199,28 @@ p.mrs-child-block-notice {
 .block-editor-block-inspector .mrs-tab-panel .components-panel__body:first-child {
   border-top: none;
 }
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/toggle/toggle.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.mrs-tab-panel .mrs-toggle {
+  margin-bottom: 24px;
+}
+.mrs-tab-panel .mrs-toggle .components-flex {
+  flex-direction: row-reverse;
+}
+.mrs-tab-panel .mrs-toggle .components-toggle-control__label {
+  margin-bottom: 0px;
+}
+.mrs-tab-panel .mrs-toggle .components-form-toggle.is-checked .components-form-toggle__track {
+  background: #008DB4;
+}
+.mrs-tab-panel .mrs-toggle .components-form-toggle.is-checked .components-form-toggle__thumb {
+  background: #fff;
+}
+.mrs-tab-panel .mrs-toggle .components-form-toggle .components-form-toggle__thumb {
+  background: #757575;
+  border-color: #757575;
+}
 /*!*********************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/@re.d_beard./react-fonticonpicker/dist/fonticonpicker.base-theme.react.css ***!
   \*********************************************************************************************************************************************************************************************************************************************/
@@ -287,6 +309,74 @@ p.mrs-child-block-notice {
   width: 16px;
   border-radius: 2px;
 }
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/button-group/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.mrs-button-group.mrs-components-mb {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.mrs-button-group.mrs-components-mb .mrs-components-top {
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.mrs-button-group.mrs-components-mb .mrs-button-group-list {
+  border: 1px solid #d7dade;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.mrs-button-group.mrs-components-mb .mrs-button-group-list button {
+  background-color: #fff;
+  box-shadow: none;
+  color: #1e1e1e;
+  height: 32px;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+.mrs-button-group.mrs-components-mb .mrs-button-group-list button.is-active {
+  background-color: #008db4;
+  color: #fff;
+  height: 28px;
+  margin-top: 1px;
+  width: calc(100% - 4px);
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/typography/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.mrs-typography.mrs-components-mb {
+  width: 100%;
+}
+.mrs-typography.mrs-components-mb .mrs-typography-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.mrs-typography.mrs-components-mb .mrs-typography-btn.active button {
+  background: #008DB4;
+  color: #fff;
+}
+.mrs-typography.mrs-components-mb .mrs-typography-btn button {
+  outline: 1px solid #ababab;
+}
+.mrs-typography.mrs-components-mb .mrs-typography-btn button:hover {
+  outline: 1px solid #008DB4;
+}
+.mrs-typography.mrs-components-mb .mrs-typography-btn .mrs-typography-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/responsive/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.styble-responsive {
+  margin-left: 10px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/rangeControl/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+
 /*!*********************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/block/mrs-button/editor.scss ***!
   \*********************************************************************************************************************************************************************************************************************************************************/
